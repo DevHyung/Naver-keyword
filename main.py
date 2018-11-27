@@ -41,7 +41,6 @@ def save_excel(_FILENAME, _DATA, _HEADER):
         book.save(_FILENAME)
 FILENAME = "keyword.xlsx"
 HEADER = ['키워드', 'PC', 'MOBILE']
-# init
 save_excel(FILENAME,None,HEADER)
 
 if __name__=="__main__":
